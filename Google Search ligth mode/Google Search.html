@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div class="hero">
+
+        <div id="searchBox">
+            <img src="./google (1).png" id="googleIcon">
+            <form action="https://www.google.com/search" method="get" target="_blank" id="search-form">
+                <input name="q" type="text" placeholder="Search Google or type URL" id="input" autocomplete="off" autofocus>
+            </form>
+            <label for="Speech Recognition"></label>
+            <button class="btn"><img src="./Google_mic.svg.png" id="recognition" class="mic-icon" onclick="record(),stop"></button>
+        </div>
+    
+    </div>
+    
+    <script>
+        var searchBox = document.getElementById("searchBox");
+        var googleIcon = document.getElementById("googleIcon");
+    
+        googleIcon.onclick = function(){
+            searchBox.classList.toggle("active");    
+        }
+
+        function record() {
+            var recognition = new webkitSpeechRecognition();
+            recognition.lang = "en-GB";
+
+            recognition.onresult = function(event){
+                document.getElementById('input').value = event.results[0][0].transcript;
+            }
+            recognition.start();
+
+        }
+    
+    </script>
+</body>
+</html>
