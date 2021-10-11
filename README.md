@@ -10,10 +10,12 @@ You can use this to search things in google, this script supports voice recognit
 #Screenshots
 
 **Light Mode**
+
 <img src="https://github.com/SathminJanuth/animated-google-search-bar/blob/main/screenshots/light%20mode.png?raw=true">
 <img src="https://github.com/SathminJanuth/animated-google-search-bar/blob/main/screenshots/light%20mode%20search%20bar.png?raw=truez">
 
 **Dark Mode**
+
 <img src="https://github.com/SathminJanuth/animated-google-search-bar/blob/main/screenshots/dark%20mode.png?raw=true">
 <img src="https://github.com/SathminJanuth/animated-google-search-bar/blob/main/screenshots/dark%20mode%20search%20bar.png?raw=true">
 
