@@ -19,4 +19,7 @@ You can use this to search things in google, this script supports voice recognit
 <img src="https://github.com/SathminJanuth/animated-google-search-bar/blob/main/screenshots/dark%20mode.png?raw=true">
 <img src="https://github.com/SathminJanuth/animated-google-search-bar/blob/main/screenshots/dark%20mode%20search%20bar.png?raw=true">
 
+**Red Mode**
 
+![image](https://user-images.githubusercontent.com/89331370/136886954-57766cf4-27ff-4cd0-96fc-e37a9afa3c45.png)
+![image](https://user-images.githubusercontent.com/89331370/136886937-610d2584-02c3-4d72-b0ef-d4958d5edec0.png)
